@@ -15,7 +15,7 @@ export default class ObsidianMarimoPlugin extends Plugin {
 				// Inject Marimo Islands.
 				const script = document.createElement('script');
 				script.type = 'module';
-				script.src = 'https://cdn.jsdelivr.net/npm/@marimo-team/islands@0.11.16/dist/main.min.js';
+				script.src = 'https://cdn.jsdelivr.net/npm/@marimo-team/islands@0.11.21-dev11/dist/main.min.js';
 				wrapper.appendChild(script);
 				console.log(script);
 
