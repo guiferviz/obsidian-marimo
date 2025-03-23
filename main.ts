@@ -28,11 +28,10 @@ export default class ObsidianMarimoPlugin extends Plugin {
 				<marimo-mode data-mode="read" hidden=""></marimo-mode>
 				<marimo-island
 					data-app-id="${appId}"
-					data-cell-idx="0"
 					data-cell-id="${uniqueId}"
 					data-reactive="true"
 				>
-					<marimo-cell-output>Loading Marimo...</marimo-cell-output>
+					<marimo-cell-output>Loading Marimo, please wait...</marimo-cell-output>
 					<marimo-cell-code hidden="">${encodeURIComponent(source)}</marimo-cell-code>
 				</marimo-island>
 			`);
